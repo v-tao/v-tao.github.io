@@ -1,0 +1,25 @@
+body {
+    background-color: #353a47;
+}
+
+.about-me-img-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    margin: 4rem;
+    width: 100%;
+}
+
+.header {
+    color: #00A6FB;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    border-bottom: 2px solid #00A6FB;
+}
+
+#about-me-img {
+    width: 80%;
+}
