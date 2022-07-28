@@ -1,9 +1,15 @@
 a {
     color:#00A6FB;
+    font-size: 1.2rem;
 }
 
 body {
-    background-color: #353a47;
+    background-color: rgb(28, 24, 34);
+    padding: 0;
+}
+
+i {
+    font-size: 2rem;
 }
 
 p {
@@ -14,12 +20,15 @@ p {
 
 .about-me-img-container {
     display: flex;
-    justify-content: center;
     padding: 2rem;
 }
 
 .container {
-    margin: 4rem;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #353a47;
 }
 
 .header {
@@ -29,12 +38,19 @@ p {
     border-bottom: 2px solid #00A6FB;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
 .text-body {
     padding: 1rem;
 }
 
 #about-me-img {
     display: block;
-    width: 60%;
-    margin: auto;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 70%;
+    border-radius: 10px;
 }
