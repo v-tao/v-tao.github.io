@@ -1,83 +1,11 @@
-a {
-    color:#00A6FB;
-    font-size: 1.2rem;
-}
-
-body {
-    background-color: rgb(28, 24, 34);
-    padding: 0;
-}
-
-h2 {
-    color:#f9f665;
-    font-family: "Oswald", sans-serif;
-}
-
-i {
-    font-size: 2rem;
-}
-
-p {
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
-}
-
-.about-me-img-container {
-    display: flex;
-    padding: 2rem;
+* {
+    font-family: Helvetica;
 }
 
 .container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border-radius: 10px;
-    background-color: #353a47;
+    margin: 5% 20%;
 }
 
-.header {
-    color: #00A6FB;
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-    border-bottom: 2px solid #00A6FB;
-}
-
-.links {
-    display: flex;
-    justify-content: space-around;
-}
-
-.project-container {
-    margin: 1rem;
-    padding: 1rem;
-    border: 2px solid #00A6FB;
-    border-radius: 10px;
-    width: 30.8%;
-}
-
-@media only screen and (max-width: 768px) {
-    .project-container {width: 92%}
-  }
-
-.project-img {
-    width: 100%;
-}
-
-.subheader {
-    color:#f9f665;
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-}
-
-.text-body {
-    padding: 1rem;
-}
-
-#about-me-img {
-    display: block;
-    margin-left: 20%;
-    margin-top: 2%;
-    width: 70%;
-    border-radius: 10px;
+.project-name {
+    font-weight: bold;
 }
